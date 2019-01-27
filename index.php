@@ -13,7 +13,7 @@ switch ($request[0]) {
 		// Here you could remove user session
 		echo true;
 		break;
-    case '/' :
+    	case '/' :
 	case '' :
 
 		$op_url = htmlspecialchars($_GET["openplatform"]);
@@ -33,6 +33,6 @@ switch ($request[0]) {
 }
 
 function show_401() {
-    header("HTTP/1.1 401 Unauthorized");
+    	header("HTTP/1.1 401 Unauthorized");
 	require __DIR__ . '/views/401.php';
 }
