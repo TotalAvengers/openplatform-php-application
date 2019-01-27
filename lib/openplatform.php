@@ -45,8 +45,8 @@ class Openplatform {
 		$header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
 		$header = substr($response, 0, $header_size);
 		$body = substr($response, $header_size);
-        curl_close($ch);
+		curl_close($ch);
 
-        return json_decode($body);
+		return json_decode($body);
 	}
 }
