@@ -1,0 +1,18 @@
+{
+    "name": "PHP ExampleApp",
+    "description": "Some text for the super user.",
+    "version": "1.0.0",
+    "icon": "code",
+    "url": "https://opphp.atest1.com",
+    "author": "Total Avengers s.r.o.",
+    "email": "info@totalavengers.com",
+    "roles": ["create", "read", "update"],
+    "allowreadmeta": true,
+    "allowreadprofile": 1,
+    "allowreadusers": 1,
+    "allowreadapps": 1,
+    "allowscreenshots": false,
+    "serververify": true,
+    "mobilemenu": true,
+    "responsive": true
+}
